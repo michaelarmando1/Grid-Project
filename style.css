@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    width: 100%;
+    height: 300vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.MainContainer {
+    width: 95%;
+    height: 300vh;
+    display: grid;
+    /* background-color: black; */
+    grid-template-columns: repeat(7, 1fr);
+    /* grid-template-rows: repeat(7, 1fr); */
+    margin-top: 150px;
+    gap: 20px;
+    padding: 5px;
+}
+
+.content {
+    background-color: rgb(113, 255, 37);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.new {
+    background-color: black;
+    grid-row: span 3;
+    border-radius: 10px;
+}
+
+.new1 {
+    background-color: black;
+    grid-row: span 3;
+    border-radius: 10px;
+    background-image: url(/img/vika-strawberrika-EyFuKNXPKnw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;gi
+}
+
+.new2 {
+    grid-row: span 4;
+    border-radius: 10px;
+    background-image: url(/img/vika-strawberrika-ozzcA83GjrY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.new4 {
+    grid-row: span 4;
+    border-radius: 10px;
+    background-image: url(/img/adrian-regeci-UIgiD10aTOk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.new-1 {
+    background-color: grey;
+    grid-row: span 5;
+    border-radius: 10px;
+    background-image: url(img/ivan-diaz-tOa-dWrZgnk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.new-2 {
+    background-color: #704f70;
+    grid-column: span 2;
+    grid-row: span 6;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(/img/jocke-wulcan-KLOW1bD616Y-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
